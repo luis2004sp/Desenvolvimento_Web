@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Web Final</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/economia.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="assets/image/logo.png" alt="Logo Jornal Web"></a>
+        <a href="login.html" id="headerLogin">Login</a>
+    </header>
+
+
+
+    <!-- Início do conteúdo -->
+    <main>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="brasil.html"> Brasil </a>
+            <a href="internacional.html"> Internacional</a>
+            <a href="economia.html"><strong>Economia</strong></a>
+            <a href="esportes.html">Esportes</a>
+            <div class="dropdown">
+                <button class="dropbtn">&#9776;</button>
+                <div class="dropdown-content">
+                    <a href="sobreNos.html">Sobre nós</a>
+                    <a href="onde_estamos.html">Onde estamos</a>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <div class="container-fluid">
+
+
+            <!-- Carrosel-->
+
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/image/Economia/tesla.png" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Tesla pretende cortar mais de 10% de seus funcionários</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/Economia/tiktok.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Câmara dos EUA aprova nova versão de lei que pode banir TikTok no país; veja próximos
+                                passos</h5>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/Economia/mega sena.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>aposta do Rio ganha R$ 102 milhões</h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+            <!--<div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/image/Economia/tesla.png" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/Economia/tiktok.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/Economia/mega sena.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>-->
+            <br>
+            <!--Noticias-->
+            <div class="card-group">
+                <div class="card">
+                    <img src="assets/image/Economia/dolar.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Dólar nas alturas</h5>
+                        <p class="card-text">A alta recente da moeda americana tem impactado negativamente papéis de
+                            setores como aviação e varejo</p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/image/Economia/starbucks.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Starbucks registra receita anual de US$ 36 bi, alta de 12%, mas evita
+                            comentar crise no Brasil</h5>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/image/Economia/tim.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">‘Consolidação no mercado de banda larga é inevitável’, diz CEO da TIM
+                            Brasil</h5>
+                        <p class="card-text">Alberto Griselli diz que consumidor busca qualidade do serviço e rede que
+                            funcione a maior parte do tempo. Para empresa, cliente da rede 5G consome o dobro de quem é
+                            4G. Tele já faz testes com tecnologia 5,5G</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <!-- Fim do conteúdo -->
+
+    <!-- roda pé -->
+
+    <footer>
+        <p>&copy; Copyright 2000-2024 JornalWeb</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>

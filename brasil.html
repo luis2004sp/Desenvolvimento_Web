@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jornal Web Final</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="assets/css/brasilStyle.css">
+</head>
+
+<body>
+    <header>
+        <a href="index.html"><img src="assets/image/logo.png" alt="Logo Jornal Web"></a>
+        <a href="login.html" id="headerLogin">Login</a>
+    </header>
+
+
+
+    <!-- Início do conteúdo -->
+    <main>
+
+        <nav>
+            <a href="index.html">Home</a>
+            <a href="brasil.html"> <strong>Brasil</strong> </a>
+            <a href="internacional.html">Internacional</a>
+            <a href="economia.html">Economia</a>
+            <a href="esportes.html">Esportes</a>
+            <div class="dropdown">
+                <button class="dropbtn">&#9776;</button>
+                <div class="dropdown-content">
+                    <a href="sobreNos.html">Sobre nós</a>
+                    <a href="onde_estamos.html">Onde estamos</a>
+                </div>
+            </div>
+        </nav>
+        <br>
+        <div class="container-fluid">
+
+            <!-- Carrosel-->
+            <div id="carouselExampleCaptions" class="carousel slide">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                        aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                        aria-label="Slide 2"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                        aria-label="Slide 3"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/image/Brasil/Dengue.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Dengue</h5>
+                            <p>Já posso tomar a vacina com a ampliação da faixa etária?</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/Brasil/pascoa.webp" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Páscoa</h5>
+                            <p>Veja por que data muda todos os anos</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/Brasil/Rio de Janeiro.jpg" class="d-block w-100" alt="...">
+                        <div class="carousel-caption d-none d-md-block">
+                            <h5>Rio amanhece com tempo firme e anima cariocas no feriado de Tiradentes; veja a previsão
+                            </h5>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>>
+
+            <!--
+            <div id="carouselExample" class="carousel slide">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img src="assets/image/Brasil/Dengue.jpg" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/Brasil/pascoa.webp" class="d-block w-100" alt="...">
+                    </div>
+                    <div class="carousel-item">
+                        <img src="assets/image/Brasil/Rio de Janeiro.jpg" class="d-block w-100" alt="...">
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExample"
+                    data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>-->
+            <br>
+            <!--Noticias-->
+            <div class="card-group">
+                <div class="card">
+                    <img src="assets/image/Brasil/transito.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">São Paulo terá mais 3,3 mil táxis e duas novas categorias</h5>
+                        <p class="card-text">Decreto assinado neste sábado pelo prefeito Ricardo Nunes prevê ainda o
+                            sorteio de 3,7 mil vagas em pontos pela cidade, entre eles o do Aeroporto de Congonhas</p>
+                        <p class="card-text"><small class="text-body-secondary">Há 5 dias</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/image/Brasil/protesto.avif" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Acidente causa congestionamento na Marginal Tietê na manhã desta segunda-feira</h5>
+                        <p class="card-text">Pista local e a faixa da direita da expressa ficaram boqueadas entre 5h30 e 6h10 para atendimento da ocorrência; Por volta das 8h30, a zona norte registrava 84,2 km de lentidão</p>
+                        <p class="card-text"><small class="text-body-secondary">Há 2 horas</small></p>
+                    </div>
+                </div>
+                <div class="card">
+                    <img src="assets/image/Brasil/queimada.webp" class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 class="card-title">Cientistas alertam: 'sinais vitais' da Terra estão enfraquecendo</h5>
+                        <p class="card-text">Um grupo de cientistas afirma que os "sinais vitais" da Terra estão diminuindo em grande escala. O estudo, publicado na revista BioScience, mostra que 11 mil pesquisadores em 153 países avisaram, há dois anos, que o mundo estava passando por uma emergência climática.</p>
+                        <p class="card-text"><small class="text-body-secondary">Há 6 horas</small></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
+    </main>
+    <!-- Fim do conteúdo -->
+
+    <!-- roda pé -->
+
+    <footer>
+        <p>&copy; Copyright 2000-2024 JornalWeb</p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
